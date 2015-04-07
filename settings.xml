@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<servers>
+<server>
+<username>admin</username>
+<password>password</password>
+<id>ec2-arti</id>
+</server>
+</servers>
+<mirrors>
+<mirror>
+<mirrorOf>*</mirrorOf>
+<name>remote-repos</name>
+<url>http://artifactory.4synergy.nl/artifactory/remote-repos</url>
+<id>remote-repos</id>
+</mirror>
+</mirrors>
+</settings>
